@@ -24,9 +24,13 @@ def start():
 
 
     while True:
-        random_char()
-        #for i in range(100):
+        try:
+            random_char()
 
-        print(bcolors.OKGREEN + (characters)+((reply).center(random.randint(1,250)))+(characters)+ bcolors.ENDC)
+
+            print(bcolors.OKGREEN + (characters)+((reply).center(random.randint(1,250)))+(characters)+ bcolors.ENDC)
+
+        except KeyboardInterrupt:     # Ctrl +c to stop the code rain
+            break
 
 start()

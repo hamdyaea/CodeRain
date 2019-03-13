@@ -6,6 +6,10 @@ An infinite loop that print in the linux terminal in green you name or a message
 
 Python3 and linux
 
+## How to stop the raining code ?
+
+Ctrl + C
+
 ## Developer - Author 
 
 Hamdy Abou El Anein
