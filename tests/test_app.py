@@ -12,7 +12,9 @@ class Tests(unittest.TestCase):
         text=app.frame("Hamdy",60,color=False)
         self.assertEqual(len(text),60)
         self.assertIn("Hamdy",text)
+
     def test_narrow_terminal(self):
         self.assertEqual(len(app.frame("Very long name",4,False)),4)
         with self.assertRaises(ValueError):app.frame("X",0,False)
+
 if __name__=="__main__":unittest.main()
