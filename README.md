@@ -1,21 +1,21 @@
-# CodeRain
+# Code Rain
 
-An infinite loop that print in the linux terminal in green you name or a message with random ascii letters like in the Matrix
+A lightweight, configurable terminal animation inspired by classic code rain.
 
-## What you need :
+**Developer:** Hamdy Abou El Anein
+**Contact:** info@daylightlinux.ch
+**License:** GNU GPL v3 (see LICENSE).
 
-Python3 and linux
+## Highlights
 
-## How to stop the raining code ?
+- Python 3 standard library only; no EasyGUI or NumPy dependency.
+- Explicit CLI options, validation and automated tests.
+- Original implementation preserved in the [old branch](https://github.com/hamdyaea/CodeRain/tree/old).
 
-Ctrl + C
+## Run
 
-## Developer - Author 
+    python3 coderain.py --name Hamdy --lines 100
 
-Hamdy Abou El Anein
+## Test
 
-## Homepage 
-
-http://www.daylightlinux.ch
-
-
+    python3 -m unittest discover -s tests -v
